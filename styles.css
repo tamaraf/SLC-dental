@@ -1,0 +1,104 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #005AA3;
+	margin: 0;
+  	font-family: sans-serif;
+}
+
+header, footer {
+	color: white;
+	height: 30px;
+	font-size: 10px;
+	display: flex;
+}
+
+header {
+	background-color: #004E8E;
+	border-bottom: solid 1px #00A3D8;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+}
+ 
+.text {
+	margin: auto;
+	text-align: center;
+
+}
+
+main {
+	background-color: white;
+	width: 90%;
+	max-width: 900px;
+	height: 2400px;
+	margin: 20px auto;
+}
+
+.picture {
+  float: left;
+  width: 33%;
+  margin: 10px;
+  
+}
+ img {
+ 	width: 100%;
+ } 
+.buttons {
+  color: #005AA3;
+  margin: 10px;
+  font-size: 18px;
+  line-height: 100px;
+  float: right;
+}
+
+.image {
+	margin-left: 15px;
+}
+
+.rows {
+	display: flex;
+	margin-top: 15px;
+}
+
+.box {
+	margin: auto;
+}
+
+.rows2 {
+	display: flex;
+}
+
+.line, .mainpicture {
+	margin-left: 15px;
+	font-size: 13px;
+}
+.welcome, .reviews {
+	font-size: 13px;
+	margin: 10px 15px;
+}
+
+.review {
+	margin-left: 47%;
+	font-weight: bold;
+}
+.read {
+	margin-left: 33%;
+}
+
+iframe {
+	margin: auto 10px;
+	width: 98%;
+	height: 498px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.bottom-row {
+	margin: auto;
+	justify-content: space-between;
+}
